@@ -35,13 +35,10 @@ Evaluated multiple classification models based on accuracy, precision, recall, a
 ![image](https://github.com/user-attachments/assets/d290ef28-f871-4134-ba23-fa3b07ad0a5e)
 
 
-Logistic Regression	69.06%
-
-Decision Tree	88.33%
-
-Random Forest	**91.97% (Best Model)**
-
-K-Nearest Neighbors	87.40%
+1. Logistic Regression	69.06%
+2. Decision Tree	88.33%
+3. Random Forest	**91.97% (Best Model)**
+4. K-Nearest Neighbors	87.40%
 
 ✅ **Random Forest** was the final prediction model used due to its superior accuracy and robustness to class imbalance.
 
