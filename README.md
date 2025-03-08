@@ -1,4 +1,4 @@
-# Syriatel_customer_churn_prediction
+# SyriaTel_customer_churn_prediction
 
 📌**Project Overview**:
 
