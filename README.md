@@ -13,8 +13,11 @@ SyriaTel, a telecommunications company, is experiencing customer churn, leading 
 **Dataset Overview**:
 
 Total Records: 3,333 customer records
+
 Features: 21 attributes (e.g., total call duration, charges, customer service interactions, international plan)
+
 Target Variable: *Churn* (Yes/No)
+
 **Class Imbalance**: Addressed using SMOTE to improve prediction accuracy.
 
 **Exploratory Data Analysis (EDA)**:
@@ -34,8 +37,11 @@ Evaluated multiple classification models based on accuracy, precision, recall, a
 **Model	Accuracy**:
 
 Logistic Regression	69.06%
+
 Decision Tree	88.33%
-Random Forest	91.97% (Best Model)
+
+Random Forest	**91.97% (Best Model)**
+
 K-Nearest Neighbors	87.40%
 
 ✅ **Random Forest** was selected as the final model due to its superior accuracy and robustness to class imbalance.
