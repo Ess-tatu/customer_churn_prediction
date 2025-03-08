@@ -12,21 +12,21 @@ SyriaTel, a telecommunications company, is experiencing customer churn, leading 
    
 📂**Dataset Overview**:
 
-Total Records: 3,333 customer records
+Total Records: 3,333 customer records were analyzed.
 
-Features: 21 attributes (e.g., total call duration, charges, customer service interactions, international plan)
+Features: 21 attributes (e.g., total call duration, charges, customer service interactions, international plan).
 
 Target Variable: *Churn* (Yes/No)
 
-**Class Imbalance**: Addressed using SMOTE to improve prediction accuracy.
+**Class Imbalance**: Addressed using Synthetic Minority Oversampling Technique (SMOTE) to improve prediction accuracy.
 
 🔍**Exploratory Data Analysis (EDA)**:
 
-Key insights from the dataset
+Key insights from the data analysis include:
 
 1. Customers with high total charges are more likely to churn.
 2. Frequent customer service calls indicate dissatisfaction.
-3. Geographical location has minimal impact on churn.
+3. Geographical location (Area Code/State) had minimal impact on churn.
    
 📈**Model Development & Evaluation**:
 
@@ -34,17 +34,11 @@ Evaluated multiple classification models based on accuracy, precision, recall, a
 
 ![image](https://github.com/user-attachments/assets/d290ef28-f871-4134-ba23-fa3b07ad0a5e)
 
-
-1. Logistic Regression	69.06%
-2. Decision Tree	88.33%
-3. Random Forest	**91.97% (Best Model)**
-4. K-Nearest Neighbors	87.40%
-
 ✅ **Random Forest** was the final prediction model used due to its superior accuracy and robustness to class imbalance.
 
-**Limitation**: Class imbalance affected the model's ability to correctly classify all churners.
-
 🔬**Feature Analysis Conclusions**:
+
+Insights from the feature analysis include:
 
 1. Total Calls & Total Charges: Customers with higher total charges and frequent calls are more likely to churn.
 2. Customer Service Calls: A high number of service interactions often indicates dissatisfaction, increasing churn probability.
