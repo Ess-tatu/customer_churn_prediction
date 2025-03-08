@@ -47,7 +47,7 @@ K-Nearest Neighbors	87.40%
 
 **Limitation**: Class imbalance affected the model's ability to correctly classify all churners.
 
-**Feature Analysis Conclusions**:
+🔬**Feature Analysis Conclusions**:
 
 1. Total Calls & Total Charges: Customers with higher total charges and frequent calls are more likely to churn.
 2. Customer Service Calls: A high number of service interactions often indicates dissatisfaction, increasing churn probability.
