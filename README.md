@@ -32,7 +32,7 @@ Key insights from the data analysis include:
 
 Evaluated multiple classification models based on accuracy, precision, recall, and F1-score.
 
-![image](https://github.com/user-attachments/assets/d290ef28-f871-4134-ba23-fa3b07ad0a5e)
+![Image](https://github.com/user-attachments/assets/0a019286-56cc-4a2d-8fdb-a749255bee46)
 
 ✅ **Random Forest** was the final prediction model used due to its superior accuracy and robustness to class imbalance.
 
@@ -44,7 +44,7 @@ Insights from the feature analysis include:
 2. Customer Service Calls: A high number of service interactions often indicates dissatisfaction, increasing churn probability.
 3. Geographical Location: Has minimal influence on churn, meaning retention strategies should focus on behavioral patterns rather than location-based targeting.
 
-   ![image](https://github.com/user-attachments/assets/6fda1ea8-8df4-4f2f-918c-8745883e44e3)
+ ![Image](https://github.com/user-attachments/assets/ef22383b-6b34-4a9d-8ad0-20629e3061db)
 
    
 🎯 **Business Recommendations**:
