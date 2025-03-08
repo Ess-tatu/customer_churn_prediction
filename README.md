@@ -1,4 +1,4 @@
-# Syriatel customer_churn_prediction
+# Syriatel_customer_churn_prediction
 
 **Project Overview**:
 
@@ -6,7 +6,7 @@ SyriaTel, a telecommunications company, is experiencing customer churn, leading 
 
 **Objectives**:
 
-1. Develop a machine learning model to predict customer churn.
+1. Develop a classification model to predict customer churn.
 2. Identify key factors influencing customer retention.
 3. Provide actionable insights and recommendations to reduce churn.
    
@@ -14,7 +14,7 @@ SyriaTel, a telecommunications company, is experiencing customer churn, leading 
 
 Total Records: 3,333 customer records
 Features: 21 attributes (e.g., total call duration, charges, customer service interactions, international plan)
-Target Variable: Churn (Yes/No)
+Target Variable: *Churn* (Yes/No)
 **Class Imbalance**: Addressed using SMOTE to improve prediction accuracy.
 
 **Exploratory Data Analysis (EDA)**:
